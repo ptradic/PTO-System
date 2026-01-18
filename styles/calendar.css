@@ -1,0 +1,105 @@
+
+/* Calendar Styles */
+.calendar {
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.monthYear {
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+}
+
+.calendarHeader button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+    color: #162938;
+    font-size: 1em;
+    transition: .5s;
+}
+
+.calendarHeader button:hover {
+    background: #162938;
+    color: #fff;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.day {
+    text-align: center;
+    padding: 5px;
+    color: #162938;
+    font-weight: 500;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.date:hover,
+.date.active {
+    background: #cccccc;
+    color: #fff;
+}
+
+.date.inactive {
+    color: #d2d2d2;
+}
+
+.date.date.inactive:hover {
+    color: #fff;
+}
+
+.date.selected {
+    background: #162938;
+    color: #fff;
+}
+
+#selectedDate {
+    font-size: 18px;
+    color: #162938;
+    margin-top: 10px;
+}
+

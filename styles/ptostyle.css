@@ -1,0 +1,84 @@
+
+/* PTO Form Style */
+#ptoSubmission {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 100%;
+    padding: 1rem;
+    color: #162938;
+    border-radius: 10px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#ptoContainer {
+    display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	gap: 20px 10px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, .5);
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px;
+    width: 425px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    background-color: #fff;
+    color: #162938;
+}
+
+.employee-container {
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #162938;
+    font-weight: 500;
+}
+
+.pto-info {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+    font-size: 1.2em;
+    color: #162938;
+    font-weight: 500;
+}
+
+.delete-button {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+
+.delete-button:hover {
+    background: #fff;
+    color: #162938;
+}
